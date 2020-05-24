@@ -103,7 +103,6 @@ body{
 .sliderlearnMore{border-radius: 5px; border:1px solid whie; background-color: transparent;
      padding: 5px 15px; color:white; transition:1s}
 .sliderlearnMore:hover{ background-color: white; color: #20AFE3; border: 2px solid  #20AFE3 }
-.
 /* SliderArea */
 
 
@@ -188,8 +187,47 @@ background-color:#20AFE3;opacity: 0; transition: 1s;}
   .OurProjectsDiv p span{ color:#20AFE3;cursor: pointer}
 /* Our Project Area */
 
+
 /* Help client Area */
+#ourServicesArea{background-color: #FFFFFF; padding: 40px 0}
+#ourServicesArea img{width:100%; height:130px;margin: 15px; transition: 1s;}
+#ourServicesArea .overlay{ position: absolute; width:85%; height:130px;margin: 15px; z-index: 10; top:0; bottom:0;
+background-color:black;opacity: 0; transition: 1s;}
+#ourServicesArea .overlayParent{transition: 1s;}
+#ourServicesArea .overlayParent:hover .overlay{ transition: 1s;opacity:.5; color:white; cursor: pointer;}
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    opacity: 1;
+    line-height: 1.2;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: left;
+    z-index: 20;
+  }
+  #ourServicesArea h3{
+    font-size: 32px;
+    font-family: 'Roboto Slab',serif;
+    font-weight: 700;
+    margin: 15px;
+    color: #333;
+    line-height: 30px;
+  }
+  #ourServicesArea h3:after {
+    content: '';
+    width: 55px;
+    height: 4px;
+    display: block;
+    background-color: #20AFE3;
+    ;
+    margin-top: 14px;
+  }
 /* Help client Area */
+
 
 /* Help client Area */
 /* Help client Area */
@@ -200,3 +238,23 @@ background-color:#20AFE3;opacity: 0; transition: 1s;}
 #footerArea .container a{ color: #666; font-size:14px; text-decoration:none}
 /* Footer Area*/
 
+/*Template*/
+#templateBannerArea img{
+    max-height: 225px;
+    width: 100%
+}
+
+#templateBannerArea{position: relative}
+#templateBannerArea .container{ position: absolute; top: 0; left:0}
+#templateBannerArea h1{
+    color: #fff;
+    text-shadow: 2px 1px 1px #000;
+    font-weight: 700;
+    font-size: 48px;
+    margin: 0 0 40px;
+    padding: 0;
+    line-height: 1;
+    margin-left: 12%;
+    margin-top: 4%;
+    
+}
