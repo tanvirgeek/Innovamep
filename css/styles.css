@@ -6,13 +6,11 @@ body{
 .logo{
     max-width: 50%; max-height: 50%;
     position: relative;
-    top: -10px;
+    top: -13px;
 }
-.dropdown:hover>.dropdown-menu{display: block; padding:0; margin:0}
+.dropdown:hover>.dropdown-menu{display: block; padding:0px; margin:0px}
 .dropdown-item:hover{
     background-color: #20AFE3;
-    padding:0;
-    margin:0;
 }
 .dropdown-menu{
     background-color: #EBEBEB;
