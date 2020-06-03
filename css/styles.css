@@ -253,6 +253,29 @@ background-color:black;opacity: 0; transition: 1s;}
     padding: 0;
     line-height: 1;
     margin-left: 12%;
+    margin-top: 4%; 
+}
+
+.templateBodyArea h1{
+    margin-left: 4%;
     margin-top: 4%;
-    
+    font-weight: 700;
+    font-size: 32px;
+    padding: 0;
+    color: #20AFE3;
+    line-height: 1;
+}
+.templateBodyArea p{
+    font-family: 'Roboto Condensed',sans-serif;
+    margin-left: 4%;
+    margin-top:15px;
+    color: #333;
+    line-height: 1.42857143;
+    font-weight: 300;
+}
+.featuredProjectArea h1{
+    margin-left:4%;
+}
+.featuredProjectArea .featuredImages{
+    margin-left:4%;
 }
