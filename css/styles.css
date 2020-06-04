@@ -236,6 +236,8 @@ background-color:black;opacity: 0; transition: 1s;}
 #footerArea .container a{ color: #666; font-size:14px; text-decoration:none}
 /* Footer Area*/
 
+
+
 /*Template*/
 #templateBannerArea img{
     max-height: 225px;
@@ -273,9 +275,61 @@ background-color:black;opacity: 0; transition: 1s;}
     line-height: 1.42857143;
     font-weight: 300;
 }
+
+.featuredProjectArea{
+    margin-bottom: 80px;
+}
 .featuredProjectArea h1{
     margin-left:4%;
+    font-size: 30px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom:40px;
+    margin-top:60px
 }
 .featuredProjectArea .featuredImages{
-    margin-left:4%;
+    margin-left:2%;
 }
+
+
+
+/* slide image area*/
+.imageTemplate{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.containerImage {
+    position: relative;
+}
+  .overlayTemplate {
+    position: absolute;
+    bottom: 0;
+    left: 100%;
+    right: 0;
+    background-color: rgb(59, 54, 54);
+    opacity: 0.8;;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+  }
+  
+  .col-md-3:hover .overlayTemplate {
+    width: 100%;
+    left: 0;
+    cursor: pointer;
+  }
+  
+  .textTemplate {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+  }
+/* slide immage area*/
