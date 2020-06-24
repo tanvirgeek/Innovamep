@@ -1,6 +1,0 @@
-CSS JS
---------
-1. Hide Navbar : https://www.youtube.com/watch?v=pj9cRoyQfgA
-2. Fade and scroll items into view while scrolling : https://www.youtube.com/watch?v=ptfUwPJbGlQ
-3: arrow : https://www.youtube.com/watch?v=Yp0Ek6N-VxI
-4. Slider with text animation: https://www.youtube.com/watch?v=ZfAa8d3pKs8

@@ -1,0 +1,7 @@
+Works to do: 
+
+1. Contact us page: Send Email. Get the email address from 'about us' page.
+2. Upload and Delete 2 PDF (1.tools we have, 2.manpower list) from admin panel. 2 PDF ( manpowerlist and tools list )will be shown in 'Tools we have' page just below the html paragraph in body.
+3. Common header and footer for all pages. Header footer will be cut from template.html page( commented where to cut).
+4. Help me how to modify html, css, js for your choosen framwork.
+5. Help Deploy the website in the Hosting.
